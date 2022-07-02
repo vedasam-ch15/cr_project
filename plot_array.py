@@ -21,5 +21,5 @@ plt.savefig('mask.png',bbox_inches='tight')
 plt.show() 
 plt.close()
 
-
+#forget
 
