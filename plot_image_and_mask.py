@@ -12,13 +12,13 @@ print(img_array[2].shape)
 
 #image
 plt.imshow(img_array[0], vmin = 0, vmax = 255,cmap = 'gray' )
-plt.savefig('C:\\vscode\cr_project\image_mask\image.png',bbox_inches='tight')  
+plt.savefig('C:\\vscode\cr_project\image_and_mask\image.png',bbox_inches='tight')  
 plt.show() 
 plt.close()
 
 #mask
 plt.imshow(img_array[1], vmin = 0, vmax = 255,cmap = 'gray' )
-plt.savefig('C:\\vscode\cr_project\image_mask\mask.png',bbox_inches='tight')  
+plt.savefig('C:\\vscode\cr_project\image_and_mask\mask.png',bbox_inches='tight')  
 plt.show() 
 plt.close()
 
