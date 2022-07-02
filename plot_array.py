@@ -1,4 +1,6 @@
-from functions import *
+
+from modules import *
+
 
 '''numpy array of the image (3,256,256)'''
 img_array = np.load('2_1.npy')
