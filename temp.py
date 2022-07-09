@@ -19,3 +19,6 @@ def patchify(arr1,arr2, size, n):
 l = patchify(arr1,arr2, 4, 2)
 for i in l:
     print (i)
+
+a = np.array([[0,0.,0.],[0,0,0.],[0,0.,0.]])
+print(not np.any(a))
